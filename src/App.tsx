@@ -1,12 +1,15 @@
 import React from 'react';
-import './App.css';
-
+import './styles/App.css';
+import './styles/main.css'
+import './styles/reset.css'
+import Navbar from "./components/navbar/Navbar";
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      < Navbar/>
     </div>
   );
 }
 
 export default App;
+

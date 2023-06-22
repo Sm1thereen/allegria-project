@@ -6,12 +6,15 @@ import './styles/reset.css'
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
 import Arrival from "./components/project/Arrival";
+import Clothes from "./components/clothes/Clothes";
+
 function App() {
   return (
     <div className="App">
-      < Navbar/>
-        <Header />
+      {/*< Navbar/>*/}
+      {/*  <Header />*/}
         <Arrival />
+        <Clothes />
     </div>
   );
 }

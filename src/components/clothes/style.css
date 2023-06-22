@@ -1,0 +1,55 @@
+.clothes-title {
+    font-family: 'Cormorant', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1.35px;
+    padding-bottom: 70px;
+}
+.clothes-wrapper{
+
+}
+.clothes-slider{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.clothes-slider__item{
+    display: inline-block;
+    margin-right: 45px;
+    align-items: center;
+    font-family: 'Jost',sans-serif;
+    width: 230px;
+}
+.item__text{
+    padding-top: 29px;
+}
+.item__title{
+    color:#0F303F;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    height: 26px;
+}
+.item__description{
+    text-transform: capitalize;
+    font-weight: 300;
+    height: 23px;
+}
+.item__cost{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    letter-spacing: 0.63px;
+    font-weight: 500;
+}
+.old_cost{
+    padding-right: 5px;
+    color:#CECECE;
+    text-decoration:line-through ;
+}
+.new_cost{
+    color:#FD5454;
+
+}

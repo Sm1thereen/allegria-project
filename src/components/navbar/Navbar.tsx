@@ -13,8 +13,8 @@ const Navbar = () => {
             <nav className="nav">
                 <div className="container">
                     <div className="nav-row">
-                        <div className="logo">
-                            <a href="#!" className='logo'>
+                        <div className="nav-logo">
+                            <a href="#!" >
                                 <img src={logo} alt=""/>
                             </a>
                         </div>

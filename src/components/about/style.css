@@ -1,6 +1,7 @@
 .about-us{
     background:#254A5A;
     display: flex;
+    margin-bottom: 120px;
 }
 .about-us__text{
     color:#EAE9E8;

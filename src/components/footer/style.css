@@ -1,0 +1,32 @@
+.footer__wrapper{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.footer__title{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond',sans-serif;
+    font-weight: 600;
+    line-height: 102.5%;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.footer__search__input{
+    width: 250px;
+    border-bottom: 1px solid black;
+}
+.btn-search{
+    margin-left: 10px;
+}
+.footer__text{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Avenir',sans-serif;
+    color:#B7C1C5;
+}
+.footer__text__item{
+    margin-right: 10px;
+
+}

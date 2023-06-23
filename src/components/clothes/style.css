@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-bottom:95px;
 
 }
 .clothes-slider__item{
@@ -51,5 +52,9 @@
 }
 .new_cost{
     color:#FD5454;
-
 }
+.logo{
+    text-align: center;
+    padding-bottom:80px;
+}
+

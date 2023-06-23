@@ -1,13 +1,13 @@
 import React from 'react';
 import './style.css'
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+
 
 import img1 from '../../img/clothes/jacket.jpg';
 import img2 from '../../img/clothes/singlet.jpg';
 import img3 from '../../img/clothes/blouse.jpg';
 import img4 from '../../img/clothes/t-shirt.jpg';
+import secondLogo from '../../img/logo-second.svg';
+
 const Clothes = () => {
 
     const settings = {
@@ -78,6 +78,9 @@ const Clothes = () => {
                                 </div>
                             </li>
                         </ul>
+                        <div className="logo">
+                            <img src={secondLogo} alt=""/>
+                        </div>
                     </div>
                 </div>
             </div>

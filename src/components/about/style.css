@@ -1,0 +1,36 @@
+.about-us{
+    background:#254A5A;
+    display: flex;
+}
+.about-us__text{
+    color:#EAE9E8;
+    padding: 132px 0 0 200px;
+
+}
+.about-us__title{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond',sans-serif;
+    text-transform: uppercase;
+    line-height: 90%;
+    letter-spacing: 6px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.about-us__description{
+    width: 498px;
+    height: 95px;
+    font-size: 14px;
+    font-family: 'Avenir',sans-serif;
+}
+.ellipse{
+    position: absolute;
+    top:-95px;
+    left:-80px;
+}
+.about-us__img{
+    margin-left: 76px;
+    position:relative;
+    bottom:-35px;
+    left:-25px;
+}
+

@@ -10,10 +10,10 @@
 .header__text{
     position:absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    color: #EAE9E8;
+    /*left: 50%;*/
+    /*transform: translate(-50%,-50%);*/
+    /*text-align: center;*/
+    color: #0F303F;
     text-transform: uppercase;
 
 }
@@ -24,10 +24,34 @@
     font-weight: 500;
     font-size: 40px;
     line-height: 24px;
-    text-align: center;
 }
 .header__subtitle{
     font-family: 'Avenir',sans-serif;
     font-size: 16px;
 }
+.header__img{
+    float:right;
+}
+.list-number{
+    bottom: 25px;
+    position:absolute;
+    display: flex;
+    left:50%
 
+}
+.list-wrapper{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+.number__item{
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.dot-list{
+    cursor: pointer;
+    font-size: 24px;
+}
+.dot-list.active{
+    color:orange;
+}
